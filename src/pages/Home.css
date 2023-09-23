@@ -1,0 +1,108 @@
+.category-tile {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.card {
+    border: none !important;
+    width: 15rem !important;
+}
+
+img.card-img-top.product-preview-img {
+    border-radius: 10px;
+}
+
+.category-tile:hover {
+    transform: scale(1.05);
+    border: 5px solid #e7d4bb; 
+}
+
+.sale__banner--container img {
+    max-width: 1450px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* CSS for styling each shop branch */
+.shop-branch {
+  display: flex; /* Use flexbox to arrange content horizontally */
+  margin: 10px 0; /* Add spacing between each shop branch */
+}
+
+.shop-branch img {
+  max-width: 200px; /* Set a maximum width for the images */
+  height: auto; /* Maintain the image's aspect ratio */
+  border: 2px solid #ccc; /* Add a border around the images */
+  border-radius: 8px; /* Add rounded corners to the images */
+  margin-right: 100px; /* Add spacing between the image and address */
+  align-items: center;
+}
+
+.shop-branch ul {
+  font-size: 16px; /* Adjust the font size of the branch addresses */
+}
+.shop-info-list li {
+  text-align: left;
+  margin-left: 0; /* Remove any default margin */
+  padding-left: 0; /* Remove any default padding */
+}
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px; /* Adjust the height as needed */
+}
+
+/* Style for the search input field */
+.search-form {
+  width: 100%;
+  max-width: 400px; /* Adjust the maximum width as needed */
+  display: flex;
+  align-items: center; /* Center vertically */
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px; /* Add space between input and button */
+  border: 2px solid #9AB5CA;
+  border-radius: 10px;
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+/* Style for the search button */
+.search-button {
+  padding: 10px;
+  width: 90px;
+  border: 1px solid #9AB5CA;
+  background-color: #9AB5CA;
+  color: #ffffff; /* Text color */
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+/* Style for the search button on hover */
+.search-button:hover {
+  background-color: #9AB5CA; 
+  border: 1px solid #9AB5CA; 
+}
+.navigation-container1 {
+  background-color: #9AB5CA;
+  
+}
+.social-media-icons-container a{
+  margin-right: 10px; /* Adjust the margin as needed */
+}
